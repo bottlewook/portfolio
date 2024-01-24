@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <header>메인페이지</header>
+      <header>메인페이지</header>
+      <header>메인페이지</header>
     </main>
   )
 }
