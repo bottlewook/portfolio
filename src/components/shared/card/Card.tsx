@@ -24,7 +24,7 @@ interface CardProps {
   link: string
   color: string
   progress: MotionValue<number>
-  range: any
+  range: number[]
   targetScale: number
 }
 
