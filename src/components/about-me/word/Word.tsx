@@ -22,7 +22,7 @@ function Word({ children, progress, range }: WordProps) {
       {children.split('').map((char, i) => {
         const start = range[0] + (i * step);
         const end = range[0] + ((i + 1) * step);
-        return <Char key={`c_${i}`} progress={progress} range={[start, end]}>{char}</Char>;
+        return <Char key={i} progress={progress} range={[start, end]}>{char}</Char>;
       })}
     </span>
 
