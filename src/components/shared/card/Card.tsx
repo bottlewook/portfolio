@@ -48,7 +48,7 @@ function Card({
     <div ref={container} className={cx('cardContainer')}>
       <motion.div
         className={cx('card')}
-        style={{ backgroundColor: color, scale, top: `calc(-5vh + ${i * 25}px)` }}
+        style={{ backgroundColor: color, scale, top: `calc( ${i * 25}px)` }}
       >
         <div className={cx('titleContainer')}>
           <h2 className={cx('title')}>{title}</h2>
