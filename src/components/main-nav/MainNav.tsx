@@ -20,32 +20,32 @@ function MainNav({ sections }: { sections: MainNavProps[] }) {
         <ul>
           <li>
             <button onClick={sections[0].onMoveToElement}>
-              <Text typography="t1">Intro</Text>
+              <Text typography="t4">Intro</Text>
             </button>
           </li>
           <li>
             <button onClick={sections[1].onMoveToElement}>
-              <Text typography="t1">About Me</Text>
+              <Text typography="t4">About Me</Text>
             </button>
           </li>
           <li>
             <button onClick={sections[2].onMoveToElement}>
-              <Text typography="t1">Education</Text>
+              <Text typography="t4">Education</Text>
             </button>
           </li>
           <li>
             <button onClick={sections[3].onMoveToElement}>
-              <Text typography="t1">Project</Text>
+              <Text typography="t4">Project</Text>
             </button>
           </li>
           <li>
             <button onClick={sections[4].onMoveToElement}>
-              <Text typography="t1">Contact</Text>
+              <Text typography="t4">Contact</Text>
             </button>
           </li>
           <span />
         </ul>
-        <Text typography="t1">BottleWook</Text>
+        <Text typography="t4">BottleWook</Text>
       </nav>
     </header>
   );

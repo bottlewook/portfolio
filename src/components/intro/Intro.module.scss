@@ -18,12 +18,12 @@
     align-items: center;
     justify-content: center;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 48px;
     text-align: center;
     gap: 10px;
 
     .name {
-      font-size: 60px;
+      font-size: 32px;
       word-break: keep-all;
     }
 
@@ -32,13 +32,13 @@
     }
 
     button {
-      width: 180px;
-      height: 60px;
+      width: 120px;
+      height: 48px;
       margin-top: 10px;
       transition: 1s;
       border: 1px solid rgb(135 116 116);
       border-radius: 8px;
-      font-size: 40px;
+      font-size: 24px;
       cursor: pointer;
 
       &:hover {

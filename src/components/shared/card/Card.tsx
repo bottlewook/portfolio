@@ -59,7 +59,7 @@ function Card({
           <div className={cx('description')}>
             <p className={cx('introduce')}>프로젝트 소개</p>
             <Spacing size={8} />
-            <p>{description}</p>
+            <p className={cx('content')}>{description}</p>
             <Spacing size={16} />
             <p className={cx('feature')}>구현 기능</p>
             <Spacing size={8} />

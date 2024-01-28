@@ -3,7 +3,8 @@
   position: sticky;
   top: 0;
   justify-content: center;
-  height: 87vh;
+  height: 100vh;
+  margin-bottom: 200px;
 
   .card {
     display: flex;
@@ -24,7 +25,7 @@
 
       .title {
         display: block;
-        font-size: 50px;
+        font-size: 32px;
         font-weight: bold;
       }
     }
@@ -40,14 +41,14 @@
 
         .introduce,
         .feature {
-          font-size: 40px;
+          font-size: 28px;
           text-decoration: underline solid #2ab380;
-          text-decoration-thickness: 8px;
-          text-underline-offset: -8px;
+          text-decoration-thickness: 6px;
+          text-underline-offset: -6px;
         }
 
-        p {
-          font-size: 30px;
+        .content {
+          font-size: 20px;
         }
 
         ul {
@@ -55,7 +56,7 @@
 
           li {
             list-style-type: disc;
-            font-size: 30px;
+            font-size: 20px;
           }
         }
       }
