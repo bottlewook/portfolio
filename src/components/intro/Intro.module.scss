@@ -1,24 +1,48 @@
 .introSection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   width: 100%;
   height: 100vh;
-  font-size: 80px;
 
-  .container {
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .title {
     display: flex;
-    gap: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    text-align: center;
+    gap: 10px;
 
-    .title {
-      // color: transparent;
-      font-size: 100px;
+    .name {
+      font-size: 60px;
     }
 
-    p {
-      font-size: 30px;
+    span {
+      color: rgb(239 51 157);
+    }
+
+    button {
+      width: 180px;
+      height: 60px;
+      margin-top: 10px;
+      transition: 1s;
+      border: 1px solid rgb(135 116 116);
+      border-radius: 8px;
+      font-size: 40px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(94 156 125);
+      }
     }
   }
 }
