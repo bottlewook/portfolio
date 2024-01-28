@@ -6,8 +6,10 @@ import classNames from 'classnames/bind';
 import { motion } from 'framer-motion';
 
 import AboutMe from '@components/about-me/AboutMe';
+import Contact from '@components/contact/Contact';
 import Curtain from '@components/curtain/Curtain';
 import Education from '@components/education/Education';
+import Footer from '@components/footer/Footer';
 import Counter from '@components/init/Counter';
 import Intro from '@components/intro/Intro';
 import MainNav from '@components/main-nav/MainNav';
@@ -49,6 +51,8 @@ export default function Home() {
             <AboutMe ref={aboutMe.element} />
             <Education ref={education.element} />
             <Project ref={project.element} />
+            <Contact ref={contact.element} />
+            <Footer />
           </div>
         </>
       )}
