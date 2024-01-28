@@ -11,6 +11,8 @@ import {
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
+import Spacing from '../spacing/Spacing';
+
 import styles from './Card.module.scss';
 
 const cx = classNames.bind(styles);
@@ -52,13 +54,24 @@ function Card({
           <h2 className={cx('title')}>{title}</h2>
           <ShareIcon onClick={() => { return route.push(link); }} />
         </div>
+        <Spacing size={24} />
         <div className={cx('body')}>
           <div className={cx('description')}>
             <p className={cx('introduce')}>프로젝트 소개</p>
+            <Spacing size={8} />
             <p>{description}</p>
+            <Spacing size={16} />
             <p className={cx('feature')}>구현 기능</p>
+            <Spacing size={8} />
             <ul>
-              {feature.map((item) => { return <li key={item}>{item}</li>; })}
+              {feature.map((item) => {
+                return (
+                  <>
+                    <Spacing size={8} />
+                    <li key={item}>{item}</li>
+                  </>
+                );
+              })}
             </ul>
           </div>
           <div className={styles.imageContainer}>

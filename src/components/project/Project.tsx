@@ -28,7 +28,7 @@ export const projects = [
     ],
     src: '/cryptometer.png',
     link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvPJu1WUKt-ELLpAOLnTodyIgbTYOAYFfwDpCJtF-LQ&s',
-    color: '#977F6D',
+    color: '#494949',
   },
   {
     title: '더줄게 아르바이트 매칭 플랫폼',
@@ -42,7 +42,7 @@ export const projects = [
     ],
     src: '/Julge.png',
     link: ' https://www.thejulge.com/',
-    color: '#BBACAF',
+    color: '#333333',
   },
   {
     title: '블루키 뮤직 정산 시스템',
@@ -56,7 +56,7 @@ export const projects = [
     ],
     src: '/bluekey.png',
     link: 'https://github.com/Bluekey-Payment-System/BPS-FE',
-    color: '#BBACAF',
+    color: '#0F2C21',
   },
   {
     title: 'Washpedia',
@@ -68,7 +68,7 @@ export const projects = [
     ],
     src: '/washpedia.png',
     link: 'https://f1-wash-pedia-fe.vercel.app/',
-    color: '#BBACAF',
+    color: '#0E2A38',
   },
 ];
 
@@ -90,6 +90,7 @@ const Project = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
 
   return (
     <div ref={ref}>
+      <p className={cx('title')}>Project</p>
       <main ref={container} className={cx('main')}>
         {projects.map((project, i) => {
           const targetScale = 1 - ((projects.length - i) * 0.05);

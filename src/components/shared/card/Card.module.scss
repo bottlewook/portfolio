@@ -4,7 +4,7 @@
   top: 0;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 87vh;
 
   .card {
     display: flex;
@@ -22,7 +22,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 20px;
 
       .title {
         display: block;
@@ -48,15 +47,6 @@
           text-underline-offset: -8px;
         }
 
-        .introduce {
-          margin-bottom: 5px;
-        }
-
-        .feature {
-          margin-top: 5px;
-          margin-bottom: 5px;
-        }
-
         p {
           font-size: 30px;
         }
@@ -65,8 +55,6 @@
           list-style-position: outside;
 
           li {
-            margin-bottom: 5px;
-            padding-left: -5px;
             list-style-type: disc;
             font-size: 30px;
           }
