@@ -9,6 +9,7 @@ import classNames from 'classnames/bind';
 import { useScroll } from 'framer-motion';
 
 import Card from '@shared/card/Card';
+import Spacing from '@shared/spacing/Spacing';
 
 import styles from './Project.module.scss';
 
@@ -91,6 +92,7 @@ const Project = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
   return (
     <div ref={ref}>
       <p className={cx('title')}>Project</p>
+      <Spacing size={24} />
       <main ref={container} className={cx('main')}>
         {projects.map((project, i) => {
           const targetScale = 1 - ((projects.length - i) * 0.05);
