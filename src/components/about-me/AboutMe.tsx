@@ -5,6 +5,8 @@ import { ForwardedRef, forwardRef, useRef } from 'react';
 import classNames from 'classnames/bind';
 import { motion, useScroll } from 'framer-motion';
 
+import Spacing from '@shared/spacing/Spacing';
+
 import styles from './AboutMe.module.scss';
 import Word from './word/Word';
 
@@ -29,7 +31,8 @@ const AboutMe = forwardRef((
   return (
     <motion.section ref={ref} className={cx('aboutMeSection')}>
       <div className={cx('container')}>
-        <p className={cx('title')}>저는 요즘!</p>
+        <p className={cx('title')}>About Me!</p>
+        <Spacing size={24} />
         <p
           ref={container}
           className={cx('paragraph')}
