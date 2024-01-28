@@ -23,12 +23,16 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 20px;
 
       li {
         button {
           padding: 15px 25px;
+          transition: 1s;
           cursor: pointer;
+
+          &:hover {
+            background-color: rgb(94 156 125);
+          }
         }
       }
     }
