@@ -3,7 +3,15 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 
-const omyu = localFont({ src: './font/omyu-pretty.ttf' });
+const pretendard = localFont({
+  src: [{
+    path: './font/PretendardVariable.woff2',
+  },
+  {
+    path: './font/PretendardVariable.ttf',
+  }],
+  display: 'fallback',
+});
 
 export const metadata: Metadata = {
   title: 'bottle wook\'s portfolio',
@@ -17,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={omyu.className}>{children}</body>
+      <body className={pretendard.className}>{children}</body>
     </html>
   );
 }
