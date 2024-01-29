@@ -20,7 +20,7 @@ function Counter({ from, to, onNext }: CounterProps) {
     const node = nodeRef.current as HTMLParagraphElement;
 
     const controls = animate(from, to, {
-      duration: 5,
+      duration: 3,
       onUpdate(value) {
         node.textContent = `${value.toFixed(0)}%`;
         if (value === 100) {
