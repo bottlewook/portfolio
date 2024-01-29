@@ -15,6 +15,7 @@ import Intro from '@components/intro/Intro';
 import MainNav from '@components/main-nav/MainNav';
 import Project from '@components/project/Project';
 import useMoveScroll from '@hooks/useMoveScroll';
+import Spacing from '@shared/spacing/Spacing';
 
 import styles from './page.module.scss';
 
@@ -52,6 +53,7 @@ export default function Home() {
             <Education ref={education.element} />
             <Project ref={project.element} />
             <Contact ref={contact.element} />
+            <Spacing size={200} />
             <Footer />
           </div>
         </>
