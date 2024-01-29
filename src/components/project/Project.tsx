@@ -28,7 +28,7 @@ export const projects = [
       'recoil을 이용한 전역 상태 관리',
     ],
     src: '/cryptometer.png',
-    link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvPJu1WUKt-ELLpAOLnTodyIgbTYOAYFfwDpCJtF-LQ&s',
+    link: ' https://cryptometer.netlify.app/',
     color: '#494949',
   },
   {
@@ -63,9 +63,9 @@ export const projects = [
     title: 'Washpedia',
     description: 'Washpedia는 차를 깨끗하게 만드는 "세차 용품"에 대한 기본 정보와 유해성 유무를 쉽게 찾아볼 수 있는 웹 서비스입니다.',
     feature: [
-      '가상화폐 변동 추이를 직관적으로 보여주기 위해 rechart.js 라이브러리를 활용한 데이터 시각화',
-      '코인가격 / 시가총액 / 총거래량에 따른 차트 데이터 필터링 기능 구현',
-      '카카오톡, 페이스북 공유하기와 링크 복사 기능 구현',
+      'ci / cd workflow 작성',
+      'storybook을 이용한 시각적 회귀 테스트 및 vitest, msw를 이용한 테스트 코드 작성',
+      '20개 이상의 공통 컴포넌트 제작',
     ],
     src: '/washpedia.png',
     link: 'https://f1-wash-pedia-fe.vercel.app/',
