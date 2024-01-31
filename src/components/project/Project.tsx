@@ -27,9 +27,10 @@ export const projects = [
       'react-datepicker를 이용한 날짜 기능 추가',
       'recoil을 이용한 전역 상태 관리',
     ],
-    src: '/cryptometer.png',
+    src: '/cryptometer/cryptometer-2.png',
     link: ' https://cryptometer.netlify.app/',
     color: '#494949',
+    type: 'desktop',
   },
   {
     title: '더줄게 아르바이트 매칭 플랫폼',
@@ -41,9 +42,10 @@ export const projects = [
       '모든 디바이스에서 사용할 수 있도록 반응형 웹 제작',
       '유저 경험을 개선하기 위해 스켈레톤 UI 제작',
     ],
-    src: '/julge.png',
+    src: '/thejulge.png',
     link: ' https://www.thejulge.com/',
     color: '#333333',
+    type: 'desktop',
   },
   {
     title: '블루키 뮤직 정산 시스템',
@@ -58,6 +60,7 @@ export const projects = [
     src: '/bluekey.png',
     link: 'https://github.com/Bluekey-Payment-System/BPS-FE',
     color: '#0F2C21',
+    type: 'desktop',
   },
   {
     title: 'Washpedia',
@@ -70,6 +73,7 @@ export const projects = [
     src: '/washpedia.png',
     link: 'https://f1-wash-pedia-fe.vercel.app/',
     color: '#0E2A38',
+    type: 'mobile',
   },
 ];
 
@@ -90,7 +94,7 @@ const Project = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
   });
 
   return (
-    <div ref={ref}>
+    <section ref={ref} className={cx('container')}>
       <p className={cx('title')}>Project</p>
       <Spacing size={24} />
       <main ref={container} className={cx('main')}>
@@ -108,7 +112,7 @@ const Project = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
           );
         })}
       </main>
-    </div>
+    </section>
   );
 });
 

@@ -22,7 +22,7 @@ import styles from './page.module.scss';
 const cx = classNames.bind(styles);
 
 export default function Home() {
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
 
   const intro = useMoveScroll();
   const aboutMe = useMoveScroll();
@@ -51,6 +51,7 @@ export default function Home() {
             <Intro ref={intro.element} moveAboutMe={aboutMe.onMoveToElement} />
             <AboutMe ref={aboutMe.element} />
             <Education ref={education.element} />
+            <Spacing size={200} />
             <Project ref={project.element} />
             <Contact ref={contact.element} />
             <Spacing size={200} />
