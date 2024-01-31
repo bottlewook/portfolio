@@ -22,7 +22,7 @@ import styles from './page.module.scss';
 const cx = classNames.bind(styles);
 
 export default function Home() {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
 
   const intro = useMoveScroll();
   const aboutMe = useMoveScroll();
