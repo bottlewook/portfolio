@@ -33,7 +33,7 @@ export const projects = [
     type: 'desktop',
   },
   {
-    title: '더줄게 아르바이트 매칭 플랫폼',
+    title: 'The Julge',
     description: '더 줄게(The Julge)는 긴급 구인구직을 간편하게 할 수 있는 플랫폼 서비스입니다',
     feature: [
       'REST API를 이용한 아르바이트생 프로필 내역 CRUD 기능 구현',
@@ -48,7 +48,7 @@ export const projects = [
     type: 'desktop',
   },
   {
-    title: '블루키 뮤직 정산 시스템',
+    title: 'Bluekey',
     description: ' 음악 제작사(블루키뮤직)와 계약 아티스트 간의 정산 세부 내역 및 현황을 투명하게 공개하고, 매출 추이 등의 통계 지표를 볼 수 있는 정산 플랫폼 사이트입니다`',
     feature: [
       '유저에게 직관적으로 데이터를 보여줄 수 있도록 라이브러리 nivo 차트를 이용한 데이터 시각화',
