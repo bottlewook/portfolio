@@ -35,7 +35,7 @@ const Education = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
       ]}
       />
       <Spacing size={24} />
-      <MaskTextTitle phrase="한국전력공사 에너지 효율부 인턴" />
+      <MaskTextTitle phrase="한국전력공사 에너지 효율부 인턴 (2021.03 ~ 2021.06)" />
       <MaskTextDescription phrases={[
         '- 냉난방기기 지원 사업 관련 클라이언트와 지속적인 소통 경험',
         '- 퇴근 후에도 꾸준한 자기개발로 인턴 과정 중 자격증 취득',
