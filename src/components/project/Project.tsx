@@ -63,15 +63,15 @@ export const projects = [
     type: 'desktop',
   },
   {
-    title: 'Washpedia',
-    description: 'Washpedia는 차를 깨끗하게 만드는 "세차 용품"에 대한 기본 정보와 유해성 유무를 쉽게 찾아볼 수 있는 웹 서비스입니다.',
+    title: 'Washfit',
+    description: 'Washfit 차를 깨끗하게 만드는 "세차 용품"에 대한 기본 정보와 유해성 유무를 쉽게 찾아볼 수 있는 웹 서비스입니다.',
     feature: [
       'ci / cd workflow 작성',
       'storybook을 이용한 시각적 회귀 테스트 및 vitest, msw를 이용한 테스트 코드 작성',
       '20개 이상의 공통 컴포넌트 제작',
     ],
     src: '/washpedia.png',
-    link: 'https://f1-wash-pedia-fe.vercel.app/',
+    link: 'https://dev.washfit.site/',
     color: '#0E2A38',
     type: 'mobile',
   },
