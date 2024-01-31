@@ -42,7 +42,7 @@ export const projects = [
       '모든 디바이스에서 사용할 수 있도록 반응형 웹 제작',
       '유저 경험을 개선하기 위해 스켈레톤 UI 제작',
     ],
-    src: '/thejulge.png',
+    src: '/theJulge.png',
     link: ' https://www.thejulge.com/',
     color: '#333333',
     type: 'desktop',
