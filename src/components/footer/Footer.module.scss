@@ -11,3 +11,13 @@
     font-size: 16px;
   }
 }
+
+@media (width <= 576px) {
+  .container {
+    height: 120px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
