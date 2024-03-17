@@ -10,5 +10,7 @@
 @media (width <= 576px) {
   .body {
     font-size: 18px;
+    line-height: 1.2;
+    word-break: keep-all;
   }
 }
