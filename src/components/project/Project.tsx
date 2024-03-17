@@ -62,7 +62,7 @@ export const projects = [
     images: ['/theJulge/랜딩페이지.png', '/theJulge/홈페이지.png', '/theJulge/전체공고페이지.png', '/theJulge/내프로필페이지.png', '/theJulge/내가게페이지.png', '/theJulge/가게정보페이지.png', '/theJulge/가게상세페이지.png'],
     githubLink: 'https://github.com/LonelyIslet/TheJulge',
     projectLink: ' https://www.thejulge.com/',
-    backgroundColor: '#ADD8E6',
+    backgroundColor: '#D7E5F1',
     color: '#3F465A',
   },
   {
