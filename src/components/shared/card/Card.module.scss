@@ -126,7 +126,8 @@
 @media (width <= 576px) {
   .cardContainer {
     .card {
-      padding: 8px;
+      padding: 16px;
+      border-radius: 16px;
 
       .header {
         font-size: 16px;
