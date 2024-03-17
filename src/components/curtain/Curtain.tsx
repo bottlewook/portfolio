@@ -26,14 +26,14 @@ const colorVariant = {
   enter: {
     scaleY: 0,
     transition: {
-      duration: 0.8,
+      duration: 0.2,
       ease: 'easeInOut',
     },
   },
   end: {
     scaleY: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.1,
       ease: 'easeInOut',
     },
   },

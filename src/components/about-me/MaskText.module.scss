@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.lineMask {
+  overflow: hidden;
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 1.2;
+}
