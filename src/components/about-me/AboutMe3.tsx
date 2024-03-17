@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 import classNames from 'classnames/bind';
 
+import ScrollDown from '@shared/scroll-down/ScrollDown';
 import Spacing from '@shared/spacing/Spacing';
 
 import styles from './AboutMe3.module.scss';
@@ -35,6 +36,10 @@ const AboutMe = forwardRef((
         deletionSpeed={10}
         repeat={Infinity}
       />
+      <Spacing size={40} />
+      <div className={cx('scrollDownWrapper')}>
+        <ScrollDown />
+      </div>
     </section>
   );
 });
