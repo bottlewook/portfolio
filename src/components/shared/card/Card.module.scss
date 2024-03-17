@@ -73,6 +73,8 @@
 
 @media (width <= 992px) {
   .cardContainer {
+    height: 100%;
+
     .card {
       .header {
         font-size: 18px;
