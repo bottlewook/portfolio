@@ -1,8 +1,7 @@
 import { RefObject } from 'react';
 
 import classNames from 'classnames/bind';
-
-import Text from '@shared/text/Text';
+import Link from 'next/link';
 
 import styles from './MainNav.module.scss';
 
@@ -17,35 +16,30 @@ function MainNav({ sections }: { sections: MainNavProps[] }) {
   return (
     <header className={cx('header')}>
       <nav>
+        BottleWook
         <ul>
           <li>
             <button onClick={sections[0].onMoveToElement}>
-              <Text typography="t4">Intro</Text>
+              About Me
             </button>
           </li>
           <li>
             <button onClick={sections[1].onMoveToElement}>
-              <Text typography="t4">About Me</Text>
+              Project
             </button>
           </li>
           <li>
             <button onClick={sections[2].onMoveToElement}>
-              <Text typography="t4">Education</Text>
+              Skills
             </button>
           </li>
           <li>
             <button onClick={sections[3].onMoveToElement}>
-              <Text typography="t4">Project</Text>
+              Education
             </button>
           </li>
-          <li>
-            <button onClick={sections[4].onMoveToElement}>
-              <Text typography="t4">Contact</Text>
-            </button>
-          </li>
-          <span />
         </ul>
-        <Text typography="t4">BottleWook</Text>
+        <Link href="mailto:bwlimtony@gmail.com" className={cx('contact')}>Contact</Link>
       </nav>
     </header>
   );
