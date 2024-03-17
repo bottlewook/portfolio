@@ -52,7 +52,13 @@ function Card({
         className={cx('card')}
         style={{ backgroundColor, scale, top: `calc( ${i * 25}px)` }}
       >
-        <h2 className={cx('header')}>{title}</h2>
+        <div className={cx('headerContainer')}>
+          <h2 className={cx('header')}>{title}</h2>
+          <div className={cx('iconGroup')}>
+            <Github path={githubLink} />
+            <Homepage path={projectLink} />
+          </div>
+        </div>
         <Spacing size={8} />
         <div className={cx('body')}>
           <div className={cx('description')}>
@@ -78,10 +84,7 @@ function Card({
               <CardButton icon={<Homepage path={projectLink} />} name="project link" link={projectLink} />
             </div>
           </div>
-          <div className={cx('iconGroup')}>
-            <Github path={githubLink} />
-            <Homepage path={projectLink} />
-          </div>
+
         </div>
       </motion.div>
     </div>
