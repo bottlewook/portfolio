@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border: 1px solid #5e5e5e;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #f2eeee;
+  cursor: pointer;
+  gap: 4px;
+}
