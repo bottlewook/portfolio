@@ -74,9 +74,13 @@ function Card({
             <Carousel images={images} />
             <Spacing size={16} />
             <div className={cx('buttonGroup')}>
-              <CardButton icon={<Github />} name="github link" link={githubLink} />
-              <CardButton icon={<Homepage />} name="project link" link={projectLink} />
+              <CardButton icon={<Github path={githubLink} />} name="github link" link={githubLink} />
+              <CardButton icon={<Homepage path={projectLink} />} name="project link" link={projectLink} />
             </div>
+          </div>
+          <div className={cx('iconGroup')}>
+            <Github path={githubLink} />
+            <Homepage path={projectLink} />
           </div>
         </div>
       </motion.div>

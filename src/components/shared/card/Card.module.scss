@@ -12,7 +12,6 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    max-height: 700px;
     padding: 24px;
     transform-origin: top;
 
@@ -63,6 +62,82 @@
       .buttonGroup {
         display: flex;
         gap: 16px;
+      }
+
+      .iconGroup {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (width <= 992px) {
+  .cardContainer {
+    .card {
+      .header {
+        font-size: 18px;
+      }
+
+      .body {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        .description {
+          order: 2;
+          width: 100%;
+          font-size: 14px;
+
+          .content {
+            display: none;
+          }
+
+          ul {
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .imageContainer {
+          order: 1;
+          width: 100%;
+          height: 300px;
+
+          .buttonGroup {
+            display: none;
+          }
+        }
+
+        .iconGroup {
+          display: block;
+          display: flex;
+          align-items: center;
+          order: 3;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media (width <= 576px) {
+  .cardContainer {
+    .card {
+      padding: 8px;
+
+      .header {
+        font-size: 16px;
+      }
+
+      .body {
+        .description {
+          ul {
+            li {
+              font-size: 12px;
+            }
+          }
+        }
       }
     }
   }
