@@ -23,7 +23,7 @@ const Skills = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
         <div>
           <p style={{ fontSize: '18px' }}>Skills</p>
           <Spacing size={24} />
-          <div style={{ display: 'flex', gap: '10%' }}>
+          <div className={cx('skillsWrapper')}>
             <div>
               <SkillLayout>
                 <p style={{ fontWeight: 600 }}>언어 및 프레임워크</p>

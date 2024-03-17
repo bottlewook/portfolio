@@ -3,4 +3,19 @@
     display: flex;
     gap: 8px;
   }
+
+  .skillsWrapper {
+    display: flex;
+    gap: 10%;
+  }
+}
+
+@media (width <= 767px) {
+  .container {
+    .skillsWrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
 }
