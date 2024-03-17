@@ -6,3 +6,10 @@
     text-align: center;
   }
 }
+
+@media (width <= 767px) {
+  .container {
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}

@@ -6,3 +6,9 @@
   margin-bottom: 16px;
   overflow: hidden;
 }
+
+@media (width <= 576px) {
+  .body {
+    font-size: 14px;
+  }
+}
