@@ -1,17 +1,21 @@
 'use client';
 
-import Image from 'next/image';
 import 'swiper/scss';
 import 'swiper/scss/pagination';
+import classNames from 'classnames/bind';
+import Image from 'next/image';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+import styles from './Carousel.module.scss';
+
+const cx = classNames.bind(styles);
 
 function Carousel({ images }: { images: string[] }) {
   return (
     <Swiper
       spaceBetween={30}
       loop
-      style={{ position: 'relative', width: '100%', height: '500px' }}
       pagination
       modules={[Pagination, Autoplay]}
       autoplay={{
@@ -19,6 +23,7 @@ function Carousel({ images }: { images: string[] }) {
         disableOnInteraction: false,
       }}
       speed={3000}
+      className={cx('carouselContainer')}
     >
       {images.map((image) => {
         return (
