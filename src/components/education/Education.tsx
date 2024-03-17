@@ -20,7 +20,7 @@ const Education = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
       <Spacing size={16} />
       <p style={{ fontSize: '18px' }}>Education</p>
       <Spacing size={24} />
-      <MaskTextTitle phrase="패스트 캠퍼스 Kernel 360 수료 (2023.12 ~ 2024.02)" />
+      <MaskTextTitle phrase="패스트캠퍼스 Kernel 360 수료 (2023.12 ~ 2024.02)" />
       <MaskTextDescription phrases={[
         '- 백엔드 부트캠프 파이널 프로젝트에 프론트엔드 개발자로 참여',
         '- 환경설정부터 배포까지 현재까지 배운 내용들을 정리하고 프로젝트의 한 사이클을 경험',
