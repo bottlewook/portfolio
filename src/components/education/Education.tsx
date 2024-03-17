@@ -15,14 +15,16 @@ const cx = classNames.bind(styles);
 const Education = forwardRef((_, ref: ForwardedRef<HTMLDivElement>) => {
   return (
     <section className={cx('container')} ref={ref}>
-      <p className={cx('title')}>Education</p>
+      <Spacing size={40} />
+      <Spacing size={1} backgroundColor="black" />
+      <Spacing size={16} />
+      <p style={{ fontSize: '18px' }}>Education</p>
       <Spacing size={24} />
       <MaskTextTitle phrase="패스트 캠퍼스 Kernel 360 백엔드 파이널 프로젝트 참여 경험 (2023.12 ~ 2024.02)" />
       <MaskTextDescription phrases={[
-        '- 웹앱 개발 경험',
-        '- vitest와 storybook을 이용한 테스트 주도 개발',
-        '- aws 배포 경험',
-        '- 유저 친화적인 최적화 경험',
+        '- 백엔드 부트캠프 파이널 프로젝트에 프론트엔드 개발자로 참여',
+        '- 환경설정부터 배포까지 현재까지 배운 내용들을 정리하고 프로젝트의 한 사이클을 경험할 수 있었던 프로젝트.',
+        '- 기능구현에 그치지 않고 최적화와 테스트에 중점을 둔 프로젝트.',
       ]}
       />
       <Spacing size={24} />
