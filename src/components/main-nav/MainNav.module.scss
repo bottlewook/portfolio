@@ -7,11 +7,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1440px;
   height: 40px;
-  padding: 30px 16px;
-  backdrop-filter: blur(10px);
-  font-size: 16px;
-  font-weight: 300;
+  margin: 0 auto;
 
   nav {
     display: flex;
@@ -40,6 +38,11 @@
       font-size: 14px;
     }
   }
+
+  padding: 30px 16px;
+  font-size: 16px;
+  font-weight: 300;
+  backdrop-filter: blur(10px);
 }
 
 @media (width <=767px) {
